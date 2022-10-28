@@ -1,0 +1,46 @@
+.containertop {
+ display: flex; 
+ flex-wrap: wrap;
+ justify-content: space-around;
+   
+
+   
+}
+
+.itemt {
+    flex-grow: 1;
+    flex-basis: 250px;
+     
+   
+}
+
+
+
+/*FOOD IMAGES*/
+
+.container {
+ display: flex; 
+ flex-wrap: wrap;
+ justify-content: space-around;
+
+ 
+}
+
+.item {
+    flex-grow: 1;
+    flex-basis: 200px;
+    }
+
+
+
+
+.containerbottom  {
+ display: flex; 
+ flex-wrap: wrap;
+ justify-content: center;
+ 
+}
+
+.itemb {
+   flex-basis: 40%
+}

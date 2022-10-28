@@ -1,0 +1,784 @@
+/*GENERAL*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+#h3white {
+  color: white;
+}
+
+html,
+body {
+  background-color: #fff;
+  color: black;
+  font-family: 'Noto Sans', sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+/*Main page gallery*/
+/* Slideshow container */
+
+.slideshow-container {
+  width: 100%;
+  height: auto;
+}
+
+/****Oseji ryori***/
+
+#orderOseji {
+  color: darkorange;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.osejidiv {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.95em;
+  color: #bdc3c7;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: red;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*logo text*/
+h1,
+h2 {
+  color: white;
+}
+
+nav a {
+  color: white;
+}
+
+/*selected nav link*/
+nav a.selected {
+  background-color: #d7111d;
+}
+nav a:hover {
+  background-color: #d4af38;
+}
+
+/*************
+HEADING
+**************/
+
+header {
+  margin: 0 0 0 0;
+  width: 100%;
+  background: black;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Noto Sans', sans-serif;
+  margin: 10px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+/*************
+NAVIGATION
+**************/
+nav {
+  text-align: center;
+  padding: 5px 0 0;
+  margin-top: 5px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav a {
+  font-size: 0.95em;
+  text-align: center;
+  display: block;
+  padding: 10px 15px;
+}
+
+/*DROPDOWN MENU*/
+
+.dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 10px 25px;
+  text-decoration: none;
+}
+
+li.dropdown {
+  display: inline-block;
+  position: relative;
+  z-index: 1000;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.show {
+  display: block;
+}
+
+/*companynews*/
+
+#companynews {
+  width: 100%;
+  margin: 15px auto;
+  clear: both;
+}
+
+#companynews h2 {
+  text-align: center;
+  font-size: 1.2em;
+  background-color: #d7111c;
+  margin: 0;
+  padding: 0;
+}
+
+.companyInfo {
+  text-align: left;
+  font-size: 1.2em;
+  color: black;
+  padding: 0 5px 0 5px;
+}
+
+#companynews time {
+  color: blue;
+  padding-right: 15px;
+}
+
+/*Tamiosan*/
+
+#tamio {
+  max-width: 940px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.h2ta {
+  color: #d7111c;
+  font-size: 1.2em;
+  padding: 10px;
+  text-align: center;
+}
+
+.frontam {
+  display: block;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.new-offer-box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 940px;
+  text-align: left;
+  padding: 0.5rem;
+  margin: 0 auto;
+}
+
+.odoburu-img-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.odoburu-li {
+  width: 90%;
+}
+
+a[href^='tel'] {
+  text-decoration: inherit;
+  color: inherit;
+}
+/*************
+FOOTER
+**************/
+
+footer {
+  font-size: 1em;
+}
+
+#wrapper {
+  background: black;
+  color: #eceff1;
+  padding: 2rem;
+}
+
+#primary {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 0.9em;
+}
+
+#secondary {
+  width: 100%;
+  list-style: none;
+  padding: 10px;
+  font-size: 0.9em;
+}
+
+.h3c {
+  text-align: center;
+}
+
+.list-inline a {
+  color: white;
+  list-style: none;
+}
+
+.copy {
+  clear: both;
+  text-align: center;
+  font-size: 11px;
+}
+
+ul {
+  list-style: none; /* Remove list bullets */
+  padding: 0;
+  margin: 0;
+}
+
+/***Social network links****/
+
+#footerListtwo {
+  text-align: center;
+}
+
+.inline-listTwo li {
+  list-style: none;
+  display: inline;
+  padding-left: 5px;
+}
+
+.inline-listTwo {
+  list-style: none;
+  display: inline-block;
+}
+
+.inline-listTwo li a {
+  color: red;
+  font-size: 60px;
+  display: inline;
+}
+
+.inline-listTwo li:hover {
+  color: #670a0d;
+}
+
+/*********
+SLIDER on main PAGE
+**********/
+
+.slideshow-container2 {
+  width: 30rem;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 10;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: red;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*************
+PAGE: INFO
+**************/
+
+.profile-photo {
+  display: block;
+  max-width: 400px;
+  margin: 10px auto 0px;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  margin: 2% 0;
+}
+
+.tablewrap {
+  max-width: 960px;
+  margin: 1% auto;
+}
+
+table,
+td {
+  border: 1px solid black;
+  color: black;
+  border-collapse: collapse;
+}
+
+caption {
+  background-color: #880001;
+  color: white;
+}
+
+th,
+td {
+  padding: 5px;
+  text-align: center;
+}
+
+.h2info {
+  color: black;
+  margin: 0 0 15px 0;
+  padding: 0;
+}
+
+#h3info {
+  font-size: 1.75em;
+  margin: 15px 0 0 0;
+}
+/*************
+PAGE: MENU
+**************/
+
+#resta {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1% 5%;
+  min-height: 50vh;
+}
+
+.picture {
+  position: relative;
+  float: left;
+  width: 250px;
+  height: 168px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.partynav {
+  text-align: center;
+  padding: 5px 0 5px;
+  margin: 5px 0 5px;
+  background-image: linear-gradient(to left, #dfb54c 80%, #d4af37 20%);
+}
+
+.partynav a {
+  font-size: 1em;
+  text-align: center;
+  display: block;
+  padding: 5px 5px;
+}
+
+.partynav a.selected {
+  background-color: #d7111c;
+}
+
+.partynav a:hover {
+  background-color: #d7111c;
+}
+
+.partyimage li {
+  text-align: center;
+}
+
+/*BEER H3*/
+
+.menuh3 {
+  display: block;
+  background-color: #d7111c;
+  color: white;
+  margin: 30px auto 10px;
+  text-align: center;
+  width: 100%;
+  border: 1px solid white;
+}
+
+.beer {
+  display: block;
+  padding: 10px 10px;
+  margin: 5% 15%;
+  font-size: 0.9em;
+  border: 2px dashed orange;
+  border-radius: 25px;
+  line-height: 1.9em;
+  color: black;
+}
+
+.beerphoto {
+  max-width: 230px;
+  float: left;
+}
+
+.beerphotokirin {
+  max-width: 240px;
+  float: left;
+}
+
+#order {
+  width: 20px;
+  margin: 0 auto;
+}
+
+/*Beer INfo table*/
+
+.red {
+  color: red;
+  display: inline;
+  font-size: 1.75em;
+}
+
+/*FLEX BOX*/
+.containertopWrapper {
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+.containertop {
+  padding: 5px;
+  background: #fff;
+  border-radius: 5px;
+  margin: 5px auto;
+  box-shadow: 0 1.5px 0 0 rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.itemt {
+  color: black;
+  margin: 2px;
+  background: white;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 10px 10px;
+}
+
+/*CONTAINER MIDDLE*/
+
+.container {
+  padding: 5px;
+  background: #fff;
+  border-radius: 5px;
+  margin: 25px auto;
+  box-shadow: 0 1.5px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.containerOshirase {
+  padding: 5px;
+  background: #deb54b;
+  border-radius: 5px;
+  margin: 25px auto;
+  text-align: center;
+  box-shadow: 5px 5px 20px;
+}
+
+.item {
+  color: black;
+  margin: 5px;
+  background: white;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.container div img {
+  width: 400px;
+  height: auto;
+}
+
+.item p {
+  color: black;
+}
+
+/*CONTAINER BOTTOM*/
+
+.containerbottom {
+  padding: 5px;
+  background: #fff;
+  margin: 5px auto;
+}
+
+.itemb {
+  color: black;
+  margin: 2px;
+  background: white;
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 5px 5px;
+}
+
+.bottondesk {
+  margin: 15px auto;
+  width: 80%;
+  background-color: #ecebf3;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  border: none;
+  overflow: hidden;
+  margin: 0;
+}
+
+/*************
+2022 PARTY 
+**************/
+
+.party-container {
+}
+
+.party-first-course {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  gap: 1rem;
+  background-color: #670a0d;
+  margin-top: -0.5rem;
+}
+.party-course-img-container {
+  width: 35rem;
+}
+
+.party-title {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  font-family: 'Hiragino Sans', 'sans-serif';
+}
+
+.menu-list {
+  padding: 0.5rem;
+  height: 100%;
+  text-align: center;
+}
+.menu-list-item {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-family: 'Hiragino Sans', 'sans-serif';
+  padding: 0.5rem;
+  color: white;
+}
+
+.course-image {
+  width: 100%;
+  height: auto;
+}
+
+.party-price-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.1rem;
+}
+
+.party-number-of-items {
+  padding: 0.1rem;
+  border: 5px solid #dfb54c;
+  display: inline-block;
+  color: white;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  font-family: 'Hiragino Sans', 'sans-serif';
+}
+
+.party-second-course {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  gap: 1rem;
+  background-color: #d7111d;
+  margin-top: -0.5rem;
+}
+
+.party-third-course {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  gap: 1rem;
+  background-color: #dfb54c;
+  margin-top: -0.5rem;
+}
+
+.party-number-of-items-third {
+  padding: 0.1rem;
+  border: 5px solid white;
+  display: inline-block;
+  color: white;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  font-family: 'Hiragino Sans', 'sans-serif';
+}

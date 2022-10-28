@@ -1,0 +1,191 @@
+@media screen and (min-width: 480px) {
+  /*************
+NAVIGATION MENU
+**************/
+  .main-header,
+  .main-nav {
+    display: flex;
+  }
+
+  .main-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #gallery li {
+    width: 50.3333%;
+    margin: 0 auto;
+  }
+
+  .new-offer-box {
+    text-align: center;
+  }
+
+  /*********
+PARTY MENU
+******/
+
+  .partynav {
+    margin: 0;
+  }
+
+  .partynav li {
+    display: inline-block;
+  }
+
+  .inline-listTwo li a {
+    color: blue;
+    font-size: 30px;
+    display: inline;
+    padding-left: 5px;
+  }
+
+  /********
+Odoburu
+**************/
+  .odoburu-img-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .odoburu-li {
+    width: 80%;
+  }
+
+  /*************
+TWO COLUMN LAYOUT
+**************/
+
+  #primary {
+    width: 50%;
+    float: left;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  #secondary {
+    width: 40%;
+    float: right;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  /*************
+	 MENU PAGE
+**************/
+
+  .profile-photo {
+    max-width: 300px;
+    float: left;
+    margin: 30px 15px 15px 0;
+  }
+
+  .beer-photo {
+    float: right;
+    margin: 0 5% 80px 0;
+  }
+
+  .menuh3 {
+    width: 70%;
+    border-radius: 25px;
+  }
+}
+
+@media screen and (min-width: 660px) {
+  .companyInfo {
+    text-align: left;
+    color: black;
+    padding: 1% 5%;
+  }
+
+  #line {
+    height: 26px;
+  }
+
+  .tamio {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .h2ta {
+    font-size: 2em;
+  }
+
+  #gallery li {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    background-color: #f5f5f5;
+    color: #bdc3c7;
+  }
+
+  /********
+Odoburu
+**************/
+  .odoburu-img-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .odoburu-li {
+    width: 50%;
+  }
+
+  /********
+PARTY MENU
+**************/
+
+  .partynav {
+    margin-bottom: 5px;
+  }
+
+  .partynav li {
+    display: inline-block;
+  }
+
+  /*************
+NAVIGATION MENU
+**************/
+
+  .main-header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  /*************
+	HEADER
+**************/
+
+  .logo {
+    margin: 10px 10px 0 0;
+    width: 25%;
+  }
+
+  h1 {
+    font-size: 2.4em;
+  }
+
+  h2 {
+    font-size: 0.8255em;
+    margin-bottom: 20px;
+  }
+
+  header {
+    border-bottom: 5px solid #880001;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menuh3 {
+    width: 70%;
+    border-radius: 25px;
+  }
+
+  /******FOOTER********/
+  .inline-listTwo li a {
+    color: white;
+    font-size: 30px;
+    display: inline;
+    padding-left: 5px;
+  }
+}

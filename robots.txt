@@ -1,0 +1,3 @@
+User-agent: Googlebot
+Disalow:
+sitemap: http://yurai.com/sitemap.xml

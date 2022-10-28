@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <meta name="description" content="又来軒 本場中国四川料理" />
+    <meta
+      name="keywords"
+      content="中華, 中華 料理 店, 中華 料理 コース, 中華 料理 メニュー, 四川料理, おせち 料理, 四川 マーボー 豆腐, 弁当, 又来軒, 本場中国四川料理, ランチ,岡山ランチ,福山ランチ,倉敷ランチ, 中華 レストラン, 正月 料理"
+    />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>中華料理　又来軒　"ゆうらいけん"</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/flexbox.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      ;(function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r
+        ;(i[r] =
+          i[r] ||
+          function () {
+            ;(i[r].q = i[r].q || []).push(arguments)
+          }),
+          (i[r].l = 1 * new Date())
+        ;(a = s.createElement(o)), (m = s.getElementsByTagName(o)[0])
+        a.async = 1
+        a.src = g
+        m.parentNode.insertBefore(a, m)
+      })(
+        window,
+        document,
+        'script',
+        'https://www.google-analytics.com/analytics.js',
+        'ga'
+      )
+
+      ga('create', 'UA-65267292-2', 'auto')
+      ga('send', 'pageview')
+    </script>
+  </head>
+
+  <body>
+    <header class="main-header">
+      <a href="index.html" class="logo">
+        <h1>又来軒</h1>
+        <h2>本場中国四川料理</h2>
+      </a>
+      <nav>
+        <ul class="main-nav">
+          <li><a href="index.html">ホーム</a></li>
+          <li><a href="menu.html">宴会特集</a></li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()"
+              >店舗紹介</a
+            >
+            <div class="dropdown-content" id="myDropdown">
+              <a href="okayamaeki.html">岡山駅前店</a>
+              <a href="okayamatenmawu.html">岡山天滿屋店</a>
+              <a href="obento.html">又来軒ダイニング</a>
+              <a href="kurashiki.html">倉敷天満屋店</a>
+              <a href="fushaneki.html">福山駅家本店</a>
+              <a href="newcastle.html">福山ニューキャッスルホテル店</a>
+              <a href="fuhsantianmanwu.html">福山天満屋店</a>
+            </div>
+          </li>
+          <li><a href="info.html">会社情報</a></li>
+        </ul>
+      </nav>
+    </header>
+    <ul class="partynav">
+      <li></li>
+      <li><a href="#lunch">料理</a></li>
+      <li><a href="#drinks">ドリンク</a></li>
+      <li><a href="#lunchs">ランチ</a></li>
+      <li><a href="course/newcastleparty.html">コース</a></li>
+    </ul>
+    <div id="resta">
+      <!-- <div class="containerOshirase">
+        <h3 id="h3white">営業時間変更のお知らせ</h3>
+        <p align="center">
+          いつも「又来軒」をご利用いただきありがとうございます。
+          新型コロナウィルス感染症拡大防止対策として、弊社も店舗営業時間の短縮を実施する事と致しましたのでお知らせいたします。　お客様には大変ご迷惑をおかけしますが
+          何卒ご理解賜ります様お願い申し上げます
+        </p>
+      </div> -->
+      <h3 class="menuh3">福山ニューキャッスルホテル店</h3>
+      <div class="containertop">
+        <div class="itemt-1 itemt">
+          営業時間 11:00-22:00 <br />
+          店休日12/31. 1/1
+        </div>
+        <div class="itemt-2 itemt">
+          洋室８名様−11０名様 (テーブル)
+          <b style="color: #d7111c">TEL:084-920-0468</b> FAX:084-920-0469
+        </div>
+        <div class="itemt-3 itemt">
+          〒720-0066 広島県福山市三之丸町8-16 Ｂ1Ｆ
+        </div>
+        <div class="itemt-4 itemt" id="mapcontainer">
+          <p id="maplink">
+            <a href="http://g.co/maps/jm2pw">View Google Map</a>
+          </p>
+        </div>
+        <div class="itemt-5 itemt">
+          <a href="img/interior/IMG_6587r.jpg">
+            <img src="img/interior/IMG_6587r.jpg" alt=""
+          /></a>
+        </div>
+        <div class="itemt-6 itemt">
+          <a href="img/interior/IMG_6570r.jpg">
+            <img src="img/interior/IMG_6570r.jpg" alt=""
+          /></a>
+        </div>
+      </div>
+
+      <h3 class="menuh3">前菜</h3>
+      <div class="container">
+        <div class="item-2 item">
+          <a href="img/maindish/三種盛り合わせ前菜.jpg">
+            <img
+              class="picture"
+              src="img/maindish/三種盛り合わせ前菜.jpg"
+              alt=""
+            />
+            <p>三種前菜盛り合わせ 2200円　 <br />（税別）</p>
+          </a>
+        </div>
+        <div id="lunch" class="item-1 item">
+          <a href="img/maindish/zhongkurake.jpg">
+            <img class="picture" src="img/maindish/zhongkurake.jpg" alt="" />
+            <p>中華クラゲの和え物　<br />1450円　（税別）</p>
+          </a>
+        </div>
+        <div class="item-3 item">
+          <a href="img/maindish/蒸し鶏の胡麻ソース.jpg"
+            ><img
+              class="picture"
+              src="img/maindish/蒸し鶏の胡麻ソース.jpg"
+              alt=""
+            />
+            <p>蒸し鶏の胡麻ソースかけ　950 円　（税別）</p>
+          </a>
+        </div>
+      </div>
+
+      <h3 class="menuh3">スープ</h3>
+      <div class="container">
+        <div class="item-1 item">
+          <a href="img/maindish/awabi.jpg">
+            <img class="picture" src="img/maindish/awabi.jpg" alt="" />
+            <p>
+              鮑入りスープ 4000円　（税別）<br />
+              (2~3人前)
+            </p>
+          </a>
+        </div>
+        <div class="item-2 item">
+          <a href="img/maindish/fukaberisoup.jpg">
+            <img class="picture" src="img/maindish/fukaberisoup.jpg" alt="" />
+            <p>
+              フカヒレスープ 2800円 （税別）<br />
+              (2~3人前)
+            </p>
+          </a>
+        </div>
+        <div class="item-3 item">
+          <a href="img/main dish/cornsoup.jpg">
+            <img class="picture" src="img/maindish/cornsoup.jpg" alt="" />
+
+            <p>
+              中華風コーンスープ <br />1000円（税別）
+              <br />
+              蟹肉入り野菜スープ <br />1800円（税別）<br />
+              (2~3人前)
+            </p>
+          </a>
+        </div>
+      </div>
+
+      <h3 class="menuh3">主菜 点心</h3>
+      <div class="container">
+        <div class="item-1 item">
+          <a href="img/maindish/2餃子・春巻きm.jpg">
+            <img class="picture" src="img/maindish/2餃子・春巻きm.jpg" alt="" />
+            <p>焼き餃子 480円　（税別）</p>
+          </a>
+        </div>
+        <div class="item-2 item">
+          <a href="img/maindish/1餃子.jpg">
+            <img class="picture" src="img/maindish/1餃子.jpg" alt="" />
+            <p>春巻き 650円　（税別）</p>
+          </a>
+        </div>
+        <div class="item-3 item">
+          <a href="img/maindish/麻婆豆腐.jpg">
+            <img class="picture" src="img/maindish/麻婆豆腐.jpg" alt="" />
+            <p>麻婆豆腐 950円　（税別）</p>
+          </a>
+        </div>
+        <div class="item-4 item">
+          <a href="img/maindish/酢豚.jpg">
+            <img class="picture" src="img/maindish/酢豚.jpg" alt="" />
+            <p>酢豚 ９５０円　（税別）</p>
+          </a>
+        </div>
+        <div class="item-5 item">
+          <a href="img/maindish/lebanila.jpg">
+            <img class="picture" src="img/maindish/lebanila.jpg" alt="" />
+            <p><br /><br /><br /><br />レバニラ炒め 980円　（税別）</p>
+          </a>
+        </div>
+        <div class="item-6 item">
+          <a href="img/maindish/八宝菜.jpg">
+            <img class="picture" src="img/maindish/八宝菜.jpg" alt="" />
+            <p>八宝菜 1250円　（税別）</p>
+          </a>
+        </div>
+        <div class="item-7 item">
+          <a href="img/maindish/豚肉とニンニクの芽炒め.jpg.jpg">
+            <img
+              class="picture"
+              src="img/maindish/豚肉とニンニクの芽炒め.jpg"
+              alt=""
+            />
+            <p>豚肉とニンニクの芽炒め 1350円　（税別）</p>
+          </a>
+        </div>
+        <div class="item-7 item">
+          <a href="img/maindish/komagiregyutibiman.jpg"
+            ><img
+              class="picture"
+              src="img/maindish/komagiregyutibiman.jpg"
+              alt=""
+            />
+
+            <p>細切り牛肉とピーマンの炒め　1500円　（税別）</p>
+          </a>
+        </div>
+        <div class="item-9 item">
+          <a href="img/maindish/イカと季節野菜の炒め.jpg">
+            <img
+              class="picture"
+              src="img/maindish/イカと季節野菜の炒め.jpg"
+              alt=""
+            />
+            <p>イカと季節野菜の炒め 1650円　（税別）</p>
+          </a>
+        </div>
+        <div class="item-10 item">
+          <a href="img/maindish/海老とふくろたけの塩味炒め.jpg"
+            ><img
+              class="picture"
+              src="img/maindish/海老とふくろたけの塩味炒め.jpg"
+              alt=""
+            />
+
+            <p>海老とふくろ茸の塩味炒め　<br />1650円　（税別）</p>
+          </a>
+        </div>
+        <div class="item-11 item">
+          <a href="img/maindish/hailaorealchili.jpg"
+            ><img
+              class="picture"
+              src="img/maindish/hailaorealchili.jpg"
+              alt=""
+            />
+
+            <p>海老のチリソース煮 <br />1650円　（税別）</p>
+          </a>
+        </div>
+        <div class="item-12 item">
+          <a href="img/maindish/.jpg">
+            <p>合鴨胸肉のスーモク北京ダック風卷き　1680円　（税別）</p>
+          </a>
+        </div>
+        <div class="item-13 item">
+          <a href="img/maindish/hailaotochilisosu.jpg"
+            ><img
+              class="picture"
+              src="img/maindish/hailaotochilisosu.jpg"
+              alt=""
+            />
+
+            <p>海老と枝豆のマヨネーズ炒め <br />1750円　（税別）</p>
+          </a>
+        </div>
+        <div class="item-14 item">
+          <a href="img/maindish/zhuroum.jpg">
+            <img class="picture" src="img/maindish/zhuroum.jpg" alt="" />
+            <p>豚肉の角煮 1850円　（税別）</p>
+          </a>
+        </div>
+
+        <div class="item-15 item">
+          <a href="img/maindish/鮑の薄切り煮込み.jpg"
+            ><img
+              class="picture"
+              src="img/maindish/鮑の薄切り煮込み.jpg"
+              alt=""
+            />
+
+            <p>アワビの薄きり煮込み 6800円　（税別）</p>
+          </a>
+        </div>
+        <div class="item-16 item">
+          <a href="img/maindish/awabito.jpg">
+            <img class="picture" src="img/maindish/awabito.jpg" alt="" />
+            <p>アワビと筍のオイスターソース煮込み 7800円　（税別）</p>
+          </a>
+        </div>
+      </div>
+
+      <h3 class="menuh3">ご飯類</h3>
+      <div class="container">
+        <div class="item-1 item">
+          <a href="img/maindish/チャーハン.jpg">
+            <img class="picture" src="img/maindish/チャーハン.jpg" alt="" />
+            <p>海老入り炒飯 800円　（税別）</p>
+          </a>
+        </div>
+        <div class="item-2 item">
+          <a href="img/maindish/中華丼.jpg">
+            <img class="picture" src="img/maindish/中華丼.jpg" alt="" />
+            <p>中華丼 800円　（税別）</p>
+          </a>
+        </div>
+        <div class="item-3 item">
+          <a href="img/maindish/麻婆丼.jpg">
+            <img class="picture" src="img/maindish/麻婆丼.jpg" alt="" />
+            <p>麻婆丼　850円　（税別）</p>
+          </a>
+        </div>
+        <div class="item-4 item">
+          <a href="img/maindish/あんかけ炒飯.jpg">
+            <img class="picture" src="img/maindish/あんかけ炒飯.jpg" alt="" />
+            <p>あんかけ炒飯 1350円　（税別）</p>
+          </a>
+        </div>
+
+        <div class="item-6 item">
+          <a href="img/maindish/フカヒレの姿煮のせ炒飯.jpg"
+            ><img
+              class="picture"
+              src="img/maindish/フカヒレの姿煮のせ炒飯.jpg"
+              alt=""
+            />
+            <p>フカヒレの姿煮のせ炒飯　3500円　（税別）</p>
+          </a>
+        </div>
+      </div>
+
+      <h3 class="menuh3">麺類</h3>
+      <div class="container">
+        <div class="item-1 item">
+          <a href="img/maindish/もやしラーメン.jpg">
+            <img class="picture" src="img/maindish/もやしラーメン.jpg" alt="" />
+            <p>もやしラーメン 680円　（税別）</p>
+          </a>
+        </div>
+        <div class="item-2 item">
+          <a href="img/maindish/スアンララーメン.jpg.jpg">
+            <img
+              class="picture"
+              src="img/maindish/スアンララーメン.jpg"
+              alt=""
+            />
+            <p>スアンラ［酸辣］ラーメン 750円　（税別）</p>
+          </a>
+        </div>
+        <div class="item-3 item">
+          <a href="img/maindish/タンタンメン.jpg">
+            <img class="picture" src="img/maindish/タンタンメン.jpg" alt="" />
+            <p>坦々麺 750円　（税別）</p>
+          </a>
+        </div>
+        <div class="item-4 item">
+          <a href="img/maindish/ワンタンメン.jpg">
+            <img class="picture" src="img/maindish/ワンタンメン.jpg" alt="" />
+            <p>ワンタンメン　850円　（税別）</p>
+          </a>
+        </div>
+        <div class="item-4 item">
+          <a href="img/maindish/gomokusoba.jpg">
+            <img class="picture" src="img/maindish/gomokusoba.jpg" alt="" />
+            <p>五目そば　800円　（税別）</p>
+          </a>
+        </div>
+
+        <div class="item-5 item">
+          <a href="img/maindish/ankakeyakisoba.jpg">
+            <img class="picture" src="img/maindish/ankakeyakisoba.jpg" alt="" />
+            <p>あんかけ焼きそば <br />950円　（税別）</p>
+          </a>
+        </div>
+        <div class="item-6 item">
+          <a href="img/maindish/yakisoba.jpg"
+            ><img class="picture" src="img/maindish/yakisoba.jpg" alt="" />
+            <p>揚げそば　950 円（税別）</p>
+          </a>
+        </div>
+      </div>
+
+      <h3 class="menuh3">本場中国四川料理</h3>
+      <div class="container">
+        <div class="item-1 item">
+          <a href="img/maindish/胡瓜の四川風和え.jpg"
+            ><img
+              class="picture"
+              src="img/maindish/胡瓜の四川風和え.jpg"
+              alt=""
+            />
+
+            <p>胡瓜の四川風和え <br />980円　（税別）</p>
+          </a>
+        </div>
+        <div class="item-2 item">
+          <a href="img/maindish/本場四川麻婆豆腐.jpg">
+            <img
+              class="picture"
+              src="img/maindish/本場四川麻婆豆腐.jpg"
+              alt=""
+            />
+            <p>本場四川麻婆豆腐 【陳麻婆豆腐】 1250円　（税別）</p>
+          </a>
+        </div>
+        <div class="item-3 item">
+          <a href="img/maindish/豚肉の味噌炒め蒸.jpg">
+            <img
+              class="picture"
+              src="img/maindish/豚肉の味噌炒め蒸.jpg"
+              alt=""
+            />
+            <p>豚肉の味噌炒め 蒸しパン添え <br />1650円　（税別）</p>
+          </a>
+        </div>
+        <div class="item-4 item">
+          <a href="img/maindish/ホイコーロー.jpg">
+            <img class="picture" src="img/maindish/ホイコーロー.jpg" alt="" />
+            <p>回鍋肉 【ホイコーロー】<br />2250円　（税別）</p>
+          </a>
+        </div>
+
+        <div class="item-5 item">
+          <a href="img/maindish/牛肉の唐辛子煮.jpg">
+            <img class="picture" src="img/maindish/牛肉の唐辛子煮.jpg" alt="" />
+            <p>牛肉の唐辛子煮 2450円　（税別）</p>
+          </a>
+        </div>
+
+        <div class="item-6 item">
+          <a href="img/maindish/zhuahailaoankage.jpg">
+            <img
+              class="picture"
+              src="img/maindish/zhuahailaoankage.jpg"
+              alt=""
+            />
+            <p>中華おこげの海鮮あんかけ <br />2300円　（税別）</p>
+          </a>
+        </div>
+      </div>
+
+      <h3 class="menuh3">中国特選名菜</h3>
+      <div class="container">
+        <div class="item-1 item">
+          <a href="img/maindish/2m.jpg">
+            <img class="picture" src="img/maindish/2m.jpg" alt="" />
+            <p>伊勢海老の二種味付け <br />14800円　（税別）</p>
+          </a>
+        </div>
+        <div class="item-2 item">
+          <a href="img/maindish/32フカヒレの姿煮m.jpg">
+            <img
+              class="picture"
+              src="img/maindish/32フカヒレの姿煮m.jpg"
+              alt=""
+            />
+            <p>フカヒレの姿煮 <br />14800円　（税別）</p>
+          </a>
+        </div>
+        <div class="item-3 item">
+          <a href="img/maindish/薬膳特製鍋.jpg">
+            <img class="picture" src="img/maindish/薬膳特製鍋.jpg" alt="" />
+            <p>薬膳特製鍋 16000円 （税別）<br />【要予約】</p>
+          </a>
+        </div>
+        <div class="item-4 item">
+          <a href="img/maindish/duck.jpg">
+            <img class="picture" src="img/maindish/duck.jpg" alt="" />
+            <p>北京ダック 【一羽】28600円 （税別）<br />【要予約】</p>
+          </a>
+        </div>
+      </div>
+
+      <h3 class="menuh3" id="drinks">ビール</h3>
+      <div class="containerbottom">
+        <div class="itemt-b1 itemb">
+          瓶ビール【中瓶】 キリンクラシックラガー／アサヒスーパードライ
+        </div>
+        <div class="itemt-b2 itemb">750円 （税別）</div>
+        <div class="itemt-b3 itemb">生ビール【中ジョッキ】 キリン一番搾り</div>
+        <div class="itemt-b4 itemb">700円 （税別）</div>
+        <div class="itemt-b5 itemb">生ビール【小グラス】 キリン/一番搾り</div>
+        <div class="itemt-b6 itemb">500円 （税別）</div>
+        <div class="itemt-b7 itemb">
+          ノンアルコールビール キリン フリー ※アルコール度数0％です。
+        </div>
+        <div class="itemt-b8 itemb">500円 （税別）</div>
+        <div class="itemt-b7 itemb">
+          青島【チンタオ】ビール
+          爽快な喉ごしですっきりした飲みやすさが特徴です。
+        </div>
+        <div class="itemt-b8 itemb">740円 （税別）</div>
+      </div>
+
+      <h3 class="menuh3">果実酒</h3>
+      <div class="containerbottom">
+        <div class="itemt-b1 itemb">
+          梅酒【梅暦】湯・水割り 670円／ロック 870円 （税別）
+        </div>
+        <div class="itemt-b2 itemb">各種参照</div>
+        <div class="itemt-b3 itemb">
+          果実酒【サワー】 あんず酒/青リンゴ酒/レモン酒/ライチ酒/キンモクセイ酒
+        </div>
+        <div class="itemt-b4 itemb">650円 （税別）</div>
+        <div class="itemt-b5 itemb">
+          果実酒【ロック】 あんず酒/青リンゴ酒/レモン酒/ライチ酒/キンモクセイ酒
+        </div>
+        <div class="itemt-b6 itemb">850円 （税別）</div>
+      </div>
+
+      <h3 class="menuh3">焼酎</h3>
+      <div class="containerbottom">
+        <div class="itemt-b1 itemb">
+          いいちこ【麦：大分】 湯・水割り 630円／ロック830円 （税別）
+          ※ボトル販売はありません。
+        </div>
+        <div class="itemt-b2 itemb">各種參照</div>
+        <div class="itemt-b3 itemb">
+          舞ここち【麦：佐賀】 湯・水割り750円／ロック950円 （税別）
+          ※ボトル販売はありません。
+        </div>
+        <div class="itemt-b4 itemb">各種參照</div>
+        <div class="itemt-b5 itemb">
+          二階堂 豊後路 【麦：大分】 湯・水割り900円／ロック1100円 （税別）
+          ※ボトル販売はありません。
+        </div>
+        <div class="itemt-b6 itemb">各種參照</div>
+        <div class="itemt-b7 itemb">
+          黒霧島 【芋：宮崎】 湯・水割り630円／ロック 830円 （税別）
+          ※ボトル販売はありません。
+        </div>
+        <div class="itemt-b8 itemb">各種參照</div>
+        <div class="itemt-b7 itemb">
+          島美人【芋：鹿児島】 湯・水割り690円／ロック890円 （税別）
+          ※ボトル販売はありません。
+        </div>
+        <div class="itemt-b8 itemb">各種參照</div>
+        <div class="itemt-b7 itemb">
+          白玉の霧【芋：鹿児島】 湯・水割り850円／ロック 1050円 （税別）
+          ※ボトル販売はありません。
+        </div>
+        <div class="itemt-b8 itemb">各種參照</div>
+      </div>
+
+      <h3 class="menuh3">日本酒</h3>
+      <div class="containerbottom">
+        <div class="itemt-b1 itemb">
+          天宝ー【一合】 15度 地酒※二合1500円 もあります。
+        </div>
+        <div class="itemt-b2 itemb">750円 （税別）</div>
+        <div class="itemt-b3 itemb">
+          三吉正宗【一合】 15度 地酒※二合1200円 もあります。
+        </div>
+        <div class="itemt-b4 itemb">600円 （税別</div>
+        <div class="itemt-b5 itemb">天宝一【300ml】 15度 地酒 冷酒</div>
+        <div class="itemt-b6 itemb">950円　（税別）</div>
+      </div>
+
+      <h3 class="menuh3">中国ワイン</h3>
+      <div id="lunchs" class="containerbottom">
+        <div class="itemt-b1 itemb">
+          長城ワイン【赤・白】
+          750ml：芳醇なコクが楽しめます。【１本売りのみとなります】
+        </div>
+        <div class="itemt-b2 itemb">4500円　（税別）</div>
+      </div>
+      <h3 class="menuh3">紹興酒</h3>
+      <div class="containerbottom">
+        <div class="itemt-b1 itemb">
+          越王台紹興花彫酒3年 1合700円/2合1400円/１本2800円 （税別）（600ml）
+        </div>
+        <div class="itemt-b2 itemb">各種参照</div>
+        <div class="itemt-b3 itemb">
+          超久5年陳花彫紹興酒【640ml】 １本売りのみとなります。
+        </div>
+        <div class="itemt-b4 itemb">3500円 （税別）</div>
+        <div class="itemt-b5 itemb">
+          越王台陳年8年花彫酒・瓢箪【550ml：１本売りのみです】
+          味もさることながら、陶器の入れ物が雰囲気を高めてくれます。
+        </div>
+        <div class="itemt-b6 itemb">4600円　（税別）</div>
+        <div class="itemt-b1 itemb">
+          陳年紹興酒 珍蔵10年【500ml：１本売りのみです。】
+          コクとキレが絶妙なバランスです。大人気の商品です。
+        </div>
+        <div class="itemt-b2 itemb">5200円　（税別）</div>
+        <div class="itemt-b1 itemb">
+          越王台陳年12年花彫酒【500ml：１本売りのみです】
+          味に奥深い風味が加わり、料理 お味を一層高めてくれます。
+        </div>
+        <div class="itemt-b2 itemb">6300円　（税別）</div>
+        <div class="itemt-b1 itemb">
+          陳年紹興貴酒15年【500ml：１本売りのみです】
+          風味豊かな味をお楽しみください。
+        </div>
+        <div class="itemt-b2 itemb">9000円　（税別）</div>
+        <div class="itemt-b1 itemb">
+          越王台陳年20年花彫酒【500ml：１本売りのみです】
+          極上の風味が料理の味を一層高めます。
+        </div>
+        <div class="itemt-b2 itemb">11600円　（税別）</div>
+        <div class="itemt-b1 itemb">
+          越王台陳年25年花彫酒【500ml：１本売りのみです】
+          極上の風味が料理の味を一層高めます。
+        </div>
+        <div class="itemt-b2 itemb">33000円　（税別）</div>
+      </div>
+
+      <h3 class="menuh3">白酒</h3>
+      <div class="containerbottom">
+        <div class="itemt-b1 itemb">
+          天津高粮酒【一杯】 62度※500ml：9800円　（税別）もあります
+        </div>
+        <div class="itemt-b2 itemb">1200円　（税別）</div>
+        <div class="itemt-b3 itemb">
+          貴州茅台酒【一杯】 53度500ml：64800円 （税別）もあります
+        </div>
+        <div class="itemt-b4 itemb">5840円 （税別）</div>
+        <div class="itemt-b5 itemb">
+          五粮液【一杯】 52度※500ml：48600円 （税別）もあります
+        </div>
+        <div class="itemt-b6 itemb">4380円 （税別）</div>
+      </div>
+
+      <h3 class="menuh3">ソフトドリンク</h3>
+      <div class="containerbottom">
+        <div class="itemt-b1 itemb">
+          コーヒー【ホット】 ※アイス550円もあります
+        </div>
+        <div class="itemt-b2 itemb">450円 （税別）</div>
+        <div class="itemt-b3 itemb">
+          果汁100％ジュース オレンジ/アップル/グレープフルーツ
+        </div>
+        <div class="itemt-b4 itemb">450円 （税別）</div>
+        <div class="itemt-b5 itemb">コーラ／ジンジャーエール</div>
+        <div class="itemt-b6 itemb">450円 （税別）</div>
+      </div>
+
+      <h3 class="menuh3">中国茶</h3>
+      <div class="containerbottom">
+        <div class="itemt-b1 itemb">
+          ウーロン茶【ホット】 茶器ポットにて提供 ※アイス450円
+          （税別）はグラスにてご提供。
+        </div>
+        <div class="itemt-b2 itemb">580円 （税別）</div>
+        <div class="itemt-b3 itemb">
+          ジャスミン茶【ホット】 茶器ポットにて提供 ※アイス450円
+          （税別）はグラスにてご提供。
+        </div>
+        <div class="itemt-b4 itemb">580円 （税別）</div>
+        <div class="itemt-b5 itemb">
+          プーアル茶【ホット】 茶器ポットにて提供※ホットのみ
+        </div>
+        <div class="itemt-b6 itemb">580円 （税別）</div>
+      </div>
+
+      <h3 class="menuh3">又来軒 福山ニューキャッスル店 ランチ</h3>
+      <div class="containerbottom">
+        <div class="itemt-b1 itemb">
+          <img src="img/maindish/new1.jpg" /> <b>日替わり定食</b> 900円 （税別）
+          <br />(写真はイメージ） ご提供時間：11：00～15：00
+          （月～土の平日）※お盆、お正月期間を除く。
+          <br />内容：主菜・小鉢2種・サラダ・スープ・ザーサイ・ライス・杏仁豆腐
+          （ライスのおかわり無料） ※主菜は下記のものに変更できます。
+          麻婆豆腐・麻婆茄子・八宝菜・鶏の唐揚げ・豚肉の香り辛子炒め・酢豚・ザーサイと豚肉の炒め・レバニラ炒め・ニラと玉子の炒め
+        </div>
+
+        <div class="itemt-b3 itemb">
+          <b>サービス定食</b> 1500円 （税別）<br />ご提供時間
+          11：00～15：00（日曜、祝祭日、お盆、お正月期間）
+          内容：主菜・小鉢3種・スープ・サラダ・ザーサイ・ライス・杏仁豆腐
+          （ライスのおかわり無料） ※主菜は下記のものよりお選びいただけます。
+          海老のチリソース煮・本場四川麻婆豆腐・イカと野菜の炒め・牛肉とピーマンの細切り炒め
+        </div>
+
+        <div class="itemt-b5 itemb">
+          <img src="img/maindish/new2.png" /><b>スペシャル定食</b> 1900円
+          （税別） <br />（フカヒレスープ付き）（写真はイメージ)
+          ご提供時間11：00～15：00（毎日）
+          内容：（週替わり）主菜、小鉢3種・フカヒレスープ・サラダ・ザーサイ・ライス・杏仁豆腐（ライスのおかわり無料）
+        </div>
+
+        <div class="itemt-b1 itemb">
+          <img src="img/maindish/new3.jpg" /> <b>ランチコース</b> 2800円
+          （税別） <br />（全7品・2名様より受付）（写真はイメージ） ご提供時間
+          11：00～14：00（月～土曜日の平日）※お盆、お正月期間を除く。
+          内容：前菜二種盛り合わせ・蟹肉と海鮮たっぷりの特製スープ・酢豚・海老と季節野菜の塩味炒め・麻婆豆腐・ライス・杏仁豆腐（ライスのおかわり無料）
+        </div>
+      </div>
+    </div>
+
+    <p class="bottondesk">
+      ※団体、グループでのご利用も承りますので、ご相談ください。（駐車場有）
+    </p>
+
+    <footer>
+      <div id="wrapper">
+        <section id="primary">
+          <h3 class="h3c">会社情報</h3>
+          <p>
+            当店は本格的な四川料理をお客様に堪能して頂きたく中国四川省よりシェフを招き、
+            早くて美味しいをモットーに料理をご提供をさせて頂いております。
+            どうぞお近くの「又来軒」で本場四川の味をご賞味下さいませ。
+          </p>
+        </section>
+        <section id="secondary">
+          <h3 class="h3c">お問い合わせ</h3>
+          <ul class="list-inline">
+            <li>
+              <a href=""><i class="fa fa-map-marker" aria-hidden="true"></i></a
+              >〒700-0901 岡山県岡山市北区本町6-36第一セントラルビルB1F
+            </li>
+            <br />
+            <li>
+              <a href=""><i class="fa fa-phone" aria-hidden="true"></i></a
+              >086-227-6655
+            </li>
+            <br />
+            <li>
+              <a href=""><i class="fa fa-fax" aria-hidden="true"></i></a
+              >086-227-6639
+            </li>
+            <br />
+            <li>
+              <a href="mailto:yurai@yurai.com"
+                ><i class="fa fa-envelope" aria-hidden="true"></i>
+                yurai@yurai.com</a
+              >
+            </li>
+          </ul>
+        </section>
+        <p class="copy">&copy; 2016 Designed by Kei Blokhin</p>
+        <div id="footerListtwo">
+          <ul class="inline-listTwo">
+            <li>
+              <a href="https://www.facebook.com/YuraiCom/"
+                ><i class="fa fa-facebook-square" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/yuraiken/"
+                ><i class="fa fa-instagram" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/yurai_com"
+                ><i class="fa fa-twitter-square" aria-hidden="true"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="http://code.jquery.com/jquery-1.11.0.min.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
+    <script>
+      //Automatic year change
+      var d = new Date()
+      var year = d.getFullYear()
+      $('.copy').text('Designed by Kei Blokhin 又来軒 1990-' + year)
+      /* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+      function myFunction() {
+        document.getElementById('myDropdown').classList.toggle('show')
+      }
+
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function (e) {
+        if (!e.target.matches('.dropbtn')) {
+          var dropdowns = document.getElementsByClassName('dropdown-content')
+          for (var d = 0; d < dropdowns.length; d++) {
+            var openDropdown = dropdowns[d]
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show')
+            }
+          }
+        }
+      }
+
+      var breakpoint = 481,
+        id = 'mapcontainer',
+        viewportWidth = window.innerWidth
+      if (viewportWidth > breakpoint) {
+        var mapElement = document.createElement('iframe'),
+          mapLink = document.getElementById('maplink')
+        mapElement.id = 'map'
+
+        mapElement.src =
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.5698685284774!2d133.35860995012996!3d34.48843440197029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355110fb281a3ddf%3A0x993e7eb4e5d1797!2z5Y-I5p2l6LuSIOemj-WxseODi-ODpeODvOOCreODo-ODg-OCueODq-W6lw!5e0!3m2!1sen!2sjp!4v1477364387575=embed'
+        document.getElementById(id).insertBefore(mapElement, mapLink)
+      }
+    </script>
+  </body>
+</html>
